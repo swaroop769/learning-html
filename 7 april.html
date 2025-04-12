@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .main{
+      height: 100px;
+      width: 100px;
+      background-color: aqua;
+animation-name: swaroop;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+   @keyframes swaroop{
+    0%{
+background-color: blue;
+transform: translatey(500px);
+    }
+    20%{
+      transform: translatex(500px); 
+    }
+    40%{
+      transform: translatey(800px);
+    }
+ 
+   }
+  </style>
+</head>
+<body>
+  <div class="main">
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<title>Document</title>
+<style>
+    body{
+        background-color: rgb(233,233,255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(44,44,44);
+        font-family: 'open sans',sans-serif;
+        padding:32px;
+
+    }
+.container{
+    width: 100%;
+    max-width: 900px;
+    
+    background-color:white;
+    border-radius: 20px;
+    position: relative;
+   
+}
+h1{
+    color: rgb(83,49,156);
+}
+.swa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:rgb(200,175,255);
+    font-weight: bold;
+    margin:0 0 32px 0;
+    padding:16px;
+}
+.swa p{
+    padding: 8px;
+}
+.swa p :hover{
+    color:rgb(83,49,156);
+    cursor:pointer;
+}
+.swa p.active{
+    color:rgb(83,49,156);
+}
+.line{
+height: 3px;
+width: 100%;
+
+
+background-color: rgb(231,231,231);
+position: absolute;
+top:101px;
+}
+.toggle{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83,49,156);
+    height: 32px;
+    width: 170px;
+    border-radius: 20px;
+    margin-left: 350px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+ 
+}
+.toggle img{
+height: 30px;
+margin:0 20px 0 20px;
+
+}
+.wwe{
+    display: flex;
+    gap:50px;
+    text-align: center;
+}
+.toggle span:first-of-type{
+    color: white;
+}
+.toggle span:last-of-type{
+    background-color: white;
+    color:rgb(83,49,156);;
+    padding: 4px 16px;
+}
+.swa1{
+    background-color: rgb(250,247,255);
+   
+    text-align: center;
+   height: 130px;
+   width: 300px;
+   margin-left: 280px;
+   text-transform: uppercase;
+ 
+
+}
+.sub{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+.yas{
+    border-bottom:1px solid rgb(231, 231, 231);
+    margin-bottom: 30px;
+    
+
+}
+.swa2{
+    padding:40px 20px 40px 70px;
+}
+.swa3{
+    width: 780px;
+    margin-left: 65px;
+}
+.swa3 .swa4{
+    width: 100%;
+    height:16px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.swa3 .pointer1{
+    width: 31%;
+    height:16px;
+    background: linear-gradient(
+        90deg,
+    rgba(2,0,36,1)0%,
+    rgba(53,10,74,1)36%,
+    rgba(83,49,156,1)100%
+    );
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+
+
+}
+.swa4 .pointer2{
+    height: 24px;
+    width: 24px;
+    background-color: rgb(83,49,156);
+    border-radius: 50%;
+    margin-left: 240px;
+  margin-top:-21px;
+  border: 2px solid white;
+}
+.swa3 .child ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.pa{
+    padding-top: 20px;
+}
+.sc1{
+  
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    tex
+}
+.sc2{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+.sc{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.ex1{
+    height: 3px;
+    width: 10px;
+    background-color: rgb(27, 12, 231,0.432);
+    padding-left: 70px;
+    margin-left: 110px;
+}
+.ex2{
+    height: 3px;
+    width: 10px;
+    background-color: rgba(27, 12, 231, 0.432);
+    padding-left: 70px;
+    margin-left: 110px;
+}
+</style>
+   </head>
+   <body>
+    <h1>Estimate your cost</h1>
+    <div class="container">
+       <div class="swa">
+        <p>Free</p>
+        <p class="active">Team</p>
+        <p>Professional</p>
+        <p>Enterprises</p>
+       </div>
+       
+       <div class="yas"></div>
+        <div class="toggle">
+       <img src="./icon1.png" alt="">
+       <div class="wwe">
+        <span>mobile</span>
+        <span>web</span>
+       </div>
+       <img src="./icon2.png" alt="">
+
+
+       </div>
+       <div class="swa1">
+        <p class="pa">Monthly Sessions</p>
+        <p class="sub">20,000</p>
+       </div>
+       <p class="swa2">A session is a continuous period of user activity on your web app or website. Choose exactly how many sessions you wish to record and discard the extras.</p>
+    <div class="swa3">
+        <div class="swa4">
+            <div class="pointer1"></div>
+            <div class="pointer2"></div>
+        </div>
+        <div class="child">
+            <ul>
+                <li>0</li>
+                <li>1k</li>
+                <li>10k</li>
+                <li>25k</li>
+                <li>50k</li>
+                <li>250k</li>
+                <li>1m</li>
+                <li>10m</li>
+                <li>250m</li>
+            </ul>
+        </div>
+    </div>
+<div class="sc">
+    <div class="sc1">
+
+    <p>Monthly Billing</p>
+    <p>$199</p>
+    <p>Monthly</p>
+  <div class="ex1"></div>  
+<p>Starting from 1-month data retention</p>
+<p>10 team members</p>
+<button>Try free for 14 days</button>
+    </div>
+
+
+<div class="sc2">
+    
+        <p>Monthly Billing</p>
+        <p>$199</p>
+        <p>Monthly</p>
+        <div class="ex2"></div>  
+    <p>Starting from 1-month data retention</p>
+    <p>10 team members</p>
+    <button>Try free for 14 days</button>
+          </div>
+        </div>
+    </div>
+</body>
+   </html>

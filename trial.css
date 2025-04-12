@@ -1,0 +1,17 @@
+h1{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+}
+ul,li{
+    display: inline-block;
+   
+    font-size: 20px;
+   }
+   .swaroop img{
+width: 100%;
+display:inline-block;
+height:500px;
+
+   }
+   

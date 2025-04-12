@@ -1,0 +1,29 @@
+
+
+#swaroop{
+    list-style-type: square;
+    font-size: 20px;
+}
+.monica{
+    text-transform:capitalize;
+    text-shadow:blueviolet -2px 4px 2px;
+    font-size: 100px;
+    text-align: right;
+}
+#cookie{
+  
+    font-size: 20px;
+    list-style-type:inherit;
+}
+*{
+    color:black;
+}
+h1{
+    text-transform: capitalize;
+}
+input[type="number"]{
+    background-color: yellow;
+}
+p{
+    border:1px solid blue;
+}

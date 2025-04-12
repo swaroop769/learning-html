@@ -1,0 +1,64 @@
+body{
+    text-transform: capitalize;
+    
+}
+h1{
+    font-family: cormorant;
+    display:inline-block;
+}
+#cookie{
+    display: inline-block;
+    margin-left: -20px;
+    font-size: 18px;
+}
+#cookie li{
+    display:inline-block;
+    padding:10px;
+   
+    }
+    header{
+        margin:10px 20px;
+    }
+    #cookie a{
+        text-decoration: none;
+        color:black;
+    }
+    .moni{
+       border-bottom: 1px solid black;
+    }
+    img{
+        display: inline-block;
+        width:100%;
+        height:500px;
+       
+    }
+    h2{
+        display:inline-block;
+    }
+    .about{
+        display: inline-block;
+        width:49.75%;
+        box-sizing: border-box;
+        padding:20px;
+       }
+  #swaroop{
+    margin:16px;
+  }
+  h3{
+    font-size: 40px;
+    font-weight: 300;
+  }
+  #nag{
+    width: 40%;
+    margin:100px 0 100px 200px;
+  }
+  .prajna{
+    margin-top: 100px;
+  }
+  .prajna p{
+    margin:0;
+  }
+  .wwe{
+    border-bottom: 1px solid black;
+    display: inline-block;
+  }

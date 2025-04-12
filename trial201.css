@@ -1,0 +1,14 @@
+.swa {
+    background-color:gold;
+    display: flex;
+    gap:18px;
+    padding:20px;
+}
+p{
+   padding:0;
+   margin:0 ;
+   font-weight: 700;
+   }
+li{
+    list-style: none;
+}

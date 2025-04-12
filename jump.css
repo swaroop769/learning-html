@@ -1,0 +1,26 @@
+#swaroop{
+  width: 600px;
+  height:200px;
+  border:1px solid blue;
+  margin:200px auto;
+  border-radius: 10px;
+  background-color: white;
+  padding:30px;
+}
+#swaroop button{
+  background-color: black;
+  color: white;
+}
+body{
+  background-color: brown;
+}
+#swaroop h2{
+  color:red;
+  margin-bottom: 0;
+
+}
+
+#swaroop h1{
+  
+  margin-top: 0;
+}

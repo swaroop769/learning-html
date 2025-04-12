@@ -1,0 +1,1 @@
+window.onload=function(){var t=document.getElementById("lottiePlayer");t&&LottieInteractivity.create({player:t,mode:"chain",actions:[{state:"loop"}]})};
