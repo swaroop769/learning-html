@@ -1,12 +1,58 @@
-<!DOC TYPE html>
+<!DOCTYPE html>
 <html>
     <head>
     <title>swaroop27</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        img{
+            background-position: center;
+            background-size:inherit;
+            float: right;
+        }
+        .main{
+         height: 100vh;
+           padding:10px 30px;
+           
+        }
+  .wwe{
+    display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-decoration: 1px solid black;
+           height: 300px;
+           width: 300px;
+           border: 1px solid blue;
+  }
+  .cookie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+           align-items: center;
+           gap: 10px;
+     
+}
+ul li{
+    gap:20px;
+}
+.cookie+p{
+      text-decoration: 1px solid black;
+}
+    </style>
     </head>
     <body>
+        <div class="main">
+            <div class="wwe">
         <h1>Fresh Pasta Dough</h1>
-        <img src="swaooppasta.png">
+        <img src="swaooppasta.png" alt="" height="150" width="300">
+        </div>
+        <div class="cookie">
         <ul>
+            <br><br>
             <li><strong>Time</strong>:About 45 minutes</li>
             <li><strong>Rating</strong>:5</li>
             <li><strong>Notes</strong>:<a href="#work"> Read community work</a></li>
@@ -31,5 +77,7 @@
         <h2 id="work">Community work</h2>
         <p>This was garrage and i hated it</p>
         <p>i prefer this receipe i found on the <a href ="the new york times.html">the new york times</a></p>
+        </div>
+        </div>
     </body>
 </html>

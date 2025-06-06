@@ -2,3 +2,7 @@ nav{
  
   max-width: max-content !important;
 }
+.banner h2{
+  font-size: 48px;
+  color:blue;
+}
